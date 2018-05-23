@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "304429703436",
+    "firebase_url": "https://imagelabelingexample.firebaseio.com",
+    "project_id": "imagelabelingexample",
+    "storage_bucket": "imagelabelingexample.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:304429703436:android:51bfdffdf98e1a52",
+        "android_client_info": {
+          "package_name": "com.icaboalo.imagelabelingexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "304429703436-on0k7qnvs4lsf6ej8lnsjopaeit1i774.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.icaboalo.imagelabelingexample",
+            "certificate_hash": "59758be5aefd05f80254b9d8d203a3763d3f6224"
+          }
+        },
+        {
+          "client_id": "304429703436-625i97tv0m1p8rcnagodc4delfk2lang.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfbp1tfYMQaaQEt0xJsVCdpvBwDajMLDA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "304429703436-625i97tv0m1p8rcnagodc4delfk2lang.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

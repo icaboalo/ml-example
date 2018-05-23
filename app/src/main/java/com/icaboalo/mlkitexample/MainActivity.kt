@@ -1,0 +1,26 @@
+package com.icaboalo.mlkitexample
+
+import android.content.Intent
+import android.support.v7.app.AppCompatActivity
+import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.*
+
+class MainActivity : AppCompatActivity() {
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        bt_image_labeling.setOnClickListener {
+            startActivity(Intent(this, ImageLabelingActivity::class.java))
+        }
+
+        bt_landmark.setOnClickListener {
+            startActivity(Intent(this, LandmarkActivity::class.java))
+        }
+
+        bt_recognize_text.setOnClickListener {
+            startActivity(Intent(this, RecognizeTextActivity::class.java))
+        }
+    }
+}
